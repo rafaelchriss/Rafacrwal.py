@@ -4,7 +4,9 @@ from urllib.request import urljoin
 from bs4 import BeautifulSoup
 import requests
 from urllib.request import urlparse
-  
+import urllib3
+
+urllib3.disable_warnings()
   
 # Set for storing urls with same domain
 links_intern = set()
