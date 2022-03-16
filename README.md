@@ -1,2 +1,1 @@
-# Rafacrwal.py
-Rafacrwal.py
+python3 Rafacrwal.py URI
